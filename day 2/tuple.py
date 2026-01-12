@@ -18,3 +18,9 @@ print(more_tea.count("herbal"))
 (black,green, oolong) = tea # these are treated as variable for tea items
 
 print(type(tea))
+
+# NESTED TUPLES is also possible
+
+t = (1,2,(3,4))
+(a,b,c) = t
+print(c)
