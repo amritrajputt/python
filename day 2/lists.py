@@ -51,5 +51,11 @@ print(tea_type)
 
 # LIST COMPREHENSION
  
-squared_num = [x**2 for x in range(10)]
+squared_num = [x**2  for x in range(10)]
 print(squared_num) # list of squared num from range 0-9
+
+squared_num = [x**3 if(x == 3) else x**2 for x in range(10)]
+print(squared_num) # list of squared num from range 0-9 but 3 is cubed
+
+squared_num = [x**2 if(x == 3) else x**3 for x in range(10)]
+print(squared_num) # list of squared num from range 0-9 but from 3 every no is cubed
