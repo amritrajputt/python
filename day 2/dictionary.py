@@ -60,9 +60,10 @@ squared_nums.clear() # remove all values from dictioanry
 
 keys = ["ginger" , "masala" , "lemon"]
 default_value = "delicious"
+
 new_dict = dict.fromkeys(keys,default_value)
 print(new_dict)
 
 
-new_dict = dict.fromkeys(keys,keys) #for each key whole dict is assigned as value
+new_dict = dict.fromkeys(keys,keys)  #for each key whole dict is assigned as value
 print(new_dict)
