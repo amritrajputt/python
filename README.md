@@ -1,2 +1,1 @@
-#Day 1
-basic about python how python code runs behind the scene and python shell and mutable & immutable  
+
