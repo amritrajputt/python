@@ -15,6 +15,7 @@ print(cleaned)
 # Python object se call karne par self automatically pass karta hai.
 
 # With @staticmethod:
+
 # Python kabhi bhi self pass nahi karta.
 
 # Isliye static method ko class aur object dono se call kar sakte ho, aur wo normal function ki tarah behave karta hai.*/
